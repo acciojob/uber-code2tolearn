@@ -47,7 +47,7 @@ public class DriverServiceImpl implements DriverService {
 			   tripBooking.setStatus(TripStatus.CANCELED);
 		   }
 		}
-		driverRepository3.delete(driver);
+		//driverRepository3.delete(driver);
 	}
 
 	@Override
